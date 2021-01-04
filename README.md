@@ -63,6 +63,6 @@ See "How to check solutions".
 - #### Use filters. E.g., pick "Top 100 Liked Questions".
 - #### Do not work on the problems with "unlike" >> "like".
 - #### Only view discussion with "uphands" >> "downhands".
-
+- #### Finish the problem by checking solutions for any improvements.
 
 
