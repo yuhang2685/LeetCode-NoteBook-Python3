@@ -34,7 +34,7 @@ Your time is valuable, you have to spend your time wisely.
 You do not have to beat every question during the training. 
 The failure guides you by showing what knowledge do you need to make up, 
 and what skills do you need to spend your time for.
-See "How to check solutions".
+See "How to check with other solutions".
 
 ## How to come up with own solutions
 * Grab a piece of white paper.
@@ -43,26 +43,31 @@ See "How to check solutions".
 * Find input-output-functionality.
 * Find restrictions.
 * Abstract the description with above steps.
-* Build a conception of the problem using above steps.
 * Connect to topics using the abstraction.
+* Imagine a conception of the problem using above steps and run it.
 * Decompose using modulization.
 * Pseudocode.
 
 
 ## How to implement your own solutions
-* Open a notebook to write it down. 
-* Review before copy it to LeetCode and submit.
-* Record bugs and do analysis.
+- #### Open a notebook to write it down. 
+- #### Review before copy it to LeetCode and submit.
+- #### Record bugs and do analysis.
 
-## How to check solutions
-* Use "Debugger" to understand the solution step by step
-* Find topic connections from it
-* Mark the problem number down and do it with "How to come up with own solutions" in the near future
+## How to check with other solutions
+- #### Use "Debugger" to understand the solution step by step
+- #### Find topic connections from it
+- #### Mark the problem number down and do it with "How to come up with own solutions" in the near future
 
 ## Tips
 - #### Use filters. E.g., pick "Top 100 Liked Questions".
-- #### Do not work on the problems with "unlike" >> "like".
-- #### Only view discussion with "uphands" >> "downhands".
+- #### Do not work on the problems with :-1: >> :+1:. 
+- #### Only view discussion with :+1: >> :-1:.
 - #### Finish the problem by checking solutions for any improvements.
+- #### Do not chase shorter codes, they might not reduce time complexity (estimate and mind-compile), but reduce the readability.
 
+## Content Table
 
+| # | Title | Difficulty | Topics |  Related |
+| --- | --- | --- | --- | --- |
+| 0026 | Remove Duplicates from Sorted Array | Easy | Array, Two Pointers | |
