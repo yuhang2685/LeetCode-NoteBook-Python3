@@ -39,15 +39,15 @@ See "How to check solutions".
 ## How to come up with own solutions
 * Grab a piece of white paper.
 * 90-10 stratege: 90% time for thinking, 10% time for coding.
-* Read description carefully.
+* Read the description carefully.
 * Find input-output-functionality.
 * Find restrictions.
-* Abstract the description with keywords.
-* Build Conception to replace the description.
-* Identify the pattern.
-* Connect to topics in your knowledge base.
+* Abstract the description with above steps.
+* Build a conception of the problem using above steps.
+* Connect to topics using the abstraction.
 * Decompose using modulization.
 * Pseudocode.
+
 
 ## How to implement your own solutions
 * Open a notebook to write it down. 
