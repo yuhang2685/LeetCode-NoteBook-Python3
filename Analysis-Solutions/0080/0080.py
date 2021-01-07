@@ -1,6 +1,8 @@
 # Wrong Answer
 # Input [1,1,1,2,2,3]
 # My output [1,2,2,3]
+# Note Python use Not instead of ! as "negation", but "!=" is allowed.  
+
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -39,4 +41,4 @@ class Solution(object):
                     
         return i+1
        
-# Note Python use Not instead of ! as "negation", but "!=" is allowed.    
+  
