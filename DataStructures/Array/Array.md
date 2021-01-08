@@ -6,6 +6,10 @@ It can be travelled through by either loop utill the end (index == length - 1), 
 
 Contents can be manipulated such as modify or swap.
 
-Related Data Structures are Hash Tables, Sets.
+Useful Data Structures are 
+- Hash Table
+- Set
 
-Related Algorithms are Two Pointers.
+Useful Algorithms are 
+- Two Pointers
+- Sorting
