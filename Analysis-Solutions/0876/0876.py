@@ -1,10 +1,12 @@
 # NOTES:
 #
-# Restrict to output the second middle node if there are two middle nodes.
-# Our primitive try works fine for unique middle node, but output the first middle node if there are two middle nodes.
-# Therefore first experiment to initialize ptr2 to the next of the head (one step ahead) to see what happens.
-# It is allowed because the given LinkedList is non-empty.
+# It restricts to output the second middle node if there are two middle nodes.
+#
+# Our primitive try works fine for a unique middle node, but outputs the first middle node if there are two middle nodes.
+# Therefore we first experiment to initialize ptr2 to the next of the head (one step ahead) to see what happens.
+# Such initialization is allowed because the given LinkedList is non-empty.
 # But it doesn't work. Comparing with the primitive try, it stops at the last to the end where pt1 is still at the first middle node.
+#
 # Noticed that, intuitively we think about distinguish the case of odd and even length, e.g., ptr1 moves one more step if length is even.
 # It sounds a little bit clumsy because it brings too much extra works.
 # Then inspired by the first experiment where ptr2 stops at the last to the end instead of the end,
