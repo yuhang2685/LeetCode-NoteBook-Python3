@@ -134,26 +134,34 @@ See "How to check with other solutions".
 
 
 ## Content Table
-- "Yes" means both analysis and solutions are supplied
-- "No" means only analysis is supplied
-- "Topics" shows the problem domain and the best algorithm. Note it might have more included in analysis and solutions.
+- "Y" means both analysis and solutions are supplied
+- "N" means only analysis is supplied
+- "T-I" abbreviates "Top 100 Interview Questions"
+- "T-100" abbreviates "Top 100 Liked Questions"
+- "B" stands for "Building block"
 
-| # | Title | Difficulty | Topics | Related | :+1: :-1: | Solutions | Lists |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 0019 | Remove Nth Node From End of List       | Medium | LinkedList, Two Pointers |         | >> |     |Top Interview Questions |
-| 0026 | Remove Duplicates from Sorted Array    | Easy   | Array, Two Pointers      | 27, 217 | << | Yes |Top Interview Questions |
-| 0027 | Remove Element                         | Easy   | Array, Two Pointers      | 26      | << | Yes |                        |
-| 0080 | Remove Duplicates from Sorted Array II | Medium | Array, Two Pointers      | 26      | >> | Yes |                        |
-| 0141 | Linked List Cycle                      | Easy   | LinkedList, Two Pointers |         | >> | Yes |Top Interview Questions |
-| 0143 | Reorder List                           | Medium | LinkedList               |         | >> |     |                        |
-| 0203 | Remove Linked List Elements            | Easy   | LinkedList, Reccursion   |         | >> | Yes |                        |
-| 0217 | Contains Duplicate                     | Easy   | Array, Set, Hash Table   | 26      | >> | Yes |Top Interview Questions |
-| 0234 | Palindrome Linked List                 | Easy   | LinkedList, Two Pointers | 143?    | >> |     |Top Interview Questions |
-| 0237 | Delete Node in a Linked List           | Easy   | LinkedList               |         | << | No  |Top Interview Questions |
-| 0283 | Move Zeroes                            | Easy   | Array, Two Pointers      | 27      | >> | Yes |Top Interview Questions |
-| 0876 | Middle of the Linked List              | Easy   | LinkedList, Two Pointers |         | >> | Yes |                        |
+### Array
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0026 | Remove Duplicates from Sorted Array    | Easy   | B  | Two Pointers    | 27, 217 | << | Y | T-I |
+| 0027 | Remove Element                         | Easy   | B  | Two Pointers    | 26      | << | N |     |
+| 0080 | Remove Duplicates from Sorted Array II | Medium |    | Two Pointers    |         | >> | Y |     |
+| 0217 | Contains Duplicate                     | Easy   | B  | Set, Hash Table | 26      | >> | Y | T-I |
+| 0283 | Move Zeroes                            | Easy   | B  | Two Pointers    | 27      | >> | N | T-I |
 
-
+### LinkedList
+| # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0019 | Remove Nth Node From End of List       | Medium |    |                 |         | >> |   | T-I |
+| 0083 | Remove Duplicates from Sorted List     | Easy   |    |                 | 203, 26 | >> |   |     |
+| 0141 | Linked List Cycle                      | Easy   | B  | Two Pointers    |         | >> | Y | T-I |
+| 0143 | Reorder List                           | Medium |    |                 |         | >> |   |     |
+| 0160 | Intersection of Two Linked Lists       | Easy   |    |                 | 206     | >> |   | T-I |
+| 0203 | Remove Linked List Elements            | Easy   | B  | Reccursion      |         | >> | Y |     |
+| 0206 | Reverse Linked List                    | Easy   | B  | Reccursion      |         | >> | Y | T-I |
+| 0234 | Palindrome Linked List                 | Easy   |    | Two Pointers    | 143?    | >> |   | T-I |
+| 0237 | Delete Node in a Linked List           | Easy   | B  |                 |         | << |   | T-I |
+| 0876 | Middle of the Linked List              | Easy   | B  | Two Pointers    |         | >> | Y |     |
 
 
 
