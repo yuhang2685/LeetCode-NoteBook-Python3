@@ -12,4 +12,7 @@ Useful Data Structures are
 
 Useful Algorithms are 
 - Two Pointers
+
+Useful Tricks are 
 - Sorting
+- Loop through
