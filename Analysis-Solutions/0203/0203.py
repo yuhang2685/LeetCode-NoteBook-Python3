@@ -1,11 +1,13 @@
+# 0203. Remove Linked List Elements
+#
 # NOTE
 #
-# We started with a straight forward solution "Prev-Curr Runner".
+# Solution#1 straight forward "Prev-Curr Runner".
 #
 # Then we optimized by merging the work of "Curr" to "Prev", because "Curr" is always the next to "Prev".
 # Note the merge is not applicable to problems using "Two Pointers" in Arrays, since we do not want to shift the rest of array at each step.
 #
-# Another applicable solution is Recursion.
+# Solution#2 Recursion.
 
 #========================================
 # Solution#1: Prev-Curr Runner
@@ -34,7 +36,7 @@ class Solution:
       return dummy.next 
       
 #========================================
-# Solution#2: Single pointer
+# Solution#1: Single pointer
 #========================================
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
@@ -56,7 +58,7 @@ class Solution:
       return dummy.next 
       
 #========================================
-# Solution#3: Recursion
+# Solution#2: Recursion
 # Note it can be more concise, but current version is easy to understand
 #========================================
 class Solution:
