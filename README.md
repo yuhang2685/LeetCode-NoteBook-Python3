@@ -134,8 +134,9 @@ See "How to check with other solutions".
 
 
 ## Content Table
-- "Y" means both analysis and solutions are supplied
-- "N" means only analysis is supplied
+- "S" stands for solutions are supplied
+- "A" stands for analysis is supplied
+- "N" stands not worth doing, either because it is straight forward, or has repeated problem worth doing
 - "T-I" abbreviates "Top 100 Interview Questions"
 - "T-100" abbreviates "Top 100 Liked Questions"
 - "B" stands for "Building block"
@@ -143,25 +144,25 @@ See "How to check with other solutions".
 ### Array
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0026 | Remove Duplicates from Sorted Array    | Easy   | B  | Two Pointers    | 27, 217 | << | Y | T-I |
-| 0027 | Remove Element                         | Easy   | B  | Two Pointers    | 26      | << | N |     |
-| 0080 | Remove Duplicates from Sorted Array II | Medium |    | Two Pointers    |         | >> | Y |     |
-| 0217 | Contains Duplicate                     | Easy   | B  | Set, Hash Table | 26      | >> | Y | T-I |
-| 0283 | Move Zeroes                            | Easy   | B  | Two Pointers    | 27      | >> | N | T-I |
+| 0026 | Remove Duplicates from Sorted Array    | Easy   | B  | Two Pointers    |         | << | AS | T-I |
+| 0027 | Remove Element                         | Easy   | B  | Two Pointers    |         | << | A  |     |
+| 0080 | Remove Duplicates from Sorted Array II | Medium |    | Two Pointers    | 26      | >> | AS |     |
+| 0088 | Merge Sorted Array                     | Easy   | B  | Two Pointers    | 21      | <  | N  | T-I |
+| 0217 | Contains Duplicate                     | Easy   | B  | Set, Hash Table |         | >> | AS | T-I |
+| 0283 | Move Zeroes                            | Easy   |    | Two Pointers    | 27      | >> | A  | T-I |
 
 ### LinkedList
 | # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0019 | Remove Nth Node From End of List       | Medium |    |                 |         | >> |   | T-I |
-| 0083 | Remove Duplicates from Sorted List     | Easy   |    |                 | 203, 26 | >> |   |     |
-| 0141 | Linked List Cycle                      | Easy   | B  | Two Pointers    |         | >> | Y | T-I |
-| 0143 | Reorder List                           | Medium |    |                 |         | >> |   |     |
-| 0160 | Intersection of Two Linked Lists       | Easy   |    |                 | 206     | >> |   | T-I |
-| 0203 | Remove Linked List Elements            | Easy   | B  | Reccursion      |         | >> | Y |     |
-| 0206 | Reverse Linked List                    | Easy   | B  | Reccursion      |         | >> | Y | T-I |
-| 0234 | Palindrome Linked List                 | Easy   |    | Two Pointers    | 143?    | >> |   | T-I |
-| 0237 | Delete Node in a Linked List           | Easy   | B  |                 |         | << |   | T-I |
-| 0876 | Middle of the Linked List              | Easy   | B  | Two Pointers    |         | >> | Y |     |
+| 0021 | Merge Two Sorted Lists                 | Easy   | B  | Two Pointers    | 88      | >> |    | T-I |
+| 0083 | Remove Duplicates from Sorted List     | Easy   |    |                 | 203, 26 | >> | N  |     |
+| 0141 | Linked List Cycle                      | Easy   | B  | Two Pointers    |         | >> | AS | T-I |
+| 0160 | Intersection of Two Linked Lists       | Easy   |    | Two Pointers    |         | >> | A  | T-I |
+| 0203 | Remove Linked List Elements            | Easy   | B  | Reccursion      |         | >> | AS |     |
+| 0206 | Reverse Linked List                    | Easy   | B  | Reccursion      |         | >> | AS | T-I |
+| 0234 | Palindrome Linked List                 | Easy   |    | Two Pointers    | 143?    | >> | A  | T-I |
+| 0237 | Delete Node in a Linked List           | Easy   | B  |                 |         | << | N  | T-I |
+| 0876 | Middle of the Linked List              | Easy   | B  | Two Pointers    |         | >> | AS |     |
 
 
 
