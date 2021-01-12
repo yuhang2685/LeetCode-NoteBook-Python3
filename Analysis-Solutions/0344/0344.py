@@ -5,8 +5,8 @@
 # We only supply the solutions for Recursion. 
 # Solution#1 violates restriction "O(1) space", it still worth for practicing.
 #
-# Solution#2 does not work, I guess because the function is fixed to in-place working on the input string.
-# Therefore solution#2 works on generating a new string which is different to the input string.
+# Solution#2 does not work, I guess because the function is fixed to in-place working on the input array.
+# Therefore solution#2 works on generating a new string which is different to the input array.
 # But the algorithm is good for inspiration.
 #
 # Other solutions are straight forward.
