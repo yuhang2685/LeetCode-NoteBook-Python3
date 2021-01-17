@@ -167,14 +167,13 @@ but please estimate if it satisfies the question restrictions.*
 - ":star:" stands for fundamental tasks from LeetCode category "Easy"
 - ":star::star:" stands for fundamental tasks from LeetCode category "Easy", but with a little bit change on ":star:"
 
+
 ### Array
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0001 | Two Sum                                | Easy   | :star:       | HT             |         | >> | N  | T-I |
 | 0026 | Remove Duplicates from Sorted Array    | Easy   | :star::star: | TP             | 27      | << | AI | T-I |
-| 0027 | Remove Element                         | Easy   | :star:       | TP             |         | << | A  |     |
 | 0053 | Maximum Subarray                       | Easy   |              | DC, DP         |         | >> |    | T-I |
-| 0080 | Remove Duplicates from Sorted Array II | Medium |              | TP             | 26      | >> | AI |     |
 | 0088 | Merge Sorted Array                     | Easy   | :star:       | TP             | 21      | <  | A  | T-I |
 | 0121 | Best Time to Buy and Sell Stock        | Easy   |              | DC             |         | >> |    | T-I |
 | 0122 | Best Time to Buy and Sell Stock II     | Easy   |              | GR             |         | >> |    | T-I |
@@ -182,41 +181,40 @@ but please estimate if it satisfies the question restrictions.*
 | 0169 | Majority Element                       | Easy   |              | DC, BM         |         | >> |    | T-I |
 | 0217 | Contains Duplicate                     | Easy   | :star:       | SO, Set, HT    |         | >> | AI | T-I |
 | 0283 | Move Zeroes                            | Easy   | :star::star: | TP             | 27      | >> | A  | T-I |
-| 0350 | Intersection of Two Arrays II          | Easy   |              | BS, HT, SO     |         | >> |    | T-I |
+| 0350 | Intersection of Two Arrays II          | Easy   |              | TP, BS, HT, SO |         | >> | N  | T-I |
+
 
 ### String
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0014*| Longest Common Prefix                  | Easy   | :star:       | DC, BS  |         | >> | A  | T-I |
-| 0020 | Valid Parentheses                      | Easy   | :star:       | STK     |         | >> | N  | T-I |
-| 0028 | Implement strStr()                     | Easy   | :star:       | TP      |         | =  | A  | T-I |
-| 0038 | Count and Say                          | Easy   |              |         |         | <  |    | T-I |
-| 0125 | Valid Palindrome                       | Easy   | :star::star: | TP      | 304,709 | << | N  | T-I |
-| 0242 | Valid Anagram                          | Easy   | :star::star: | SO      | 217     | >> | AI | T-I |
-| 0344 | Reverse String                         | Easy   | :star:       | TP, REC | 27      | >> | AI | T-I |
-| 0387 | First Unique Character in a String     | Easy   | :star:       | HT, Set |         | >> | N  | T-I |
-| 0709 | To Lower Case                          | Easy   | :star:       |         |         | << | N  |     |
+| 0014*| Longest Common Prefix                    | Easy   | :star:       | DC, BS  |         | >> | A  | T-I |
+| 0020 | Valid Parentheses                        | Easy   | :star:       | STK     |         | >> | N  | T-I |
+| 0028 | Implement strStr()                       | Easy   | :star:       | TP      |         | =  | A  | T-I |
+| 0038 | Count and Say                            | Easy   |              |         |         | <  | N  | T-I |
+| 0125 | Valid Palindrome                         | Easy   | :star::star: | TP      | 304,709 | << | N  | T-I |
+| 0242 | Valid Anagram                            | Easy   | :star::star: | SO      | 217     | >> | AI | T-I |
+| 0344 | Reverse String                           | Easy   | :star:       | TP, REC | 27      | >> | AI | T-I |
+| 0387 | First Unique Character in a String       | Easy   | :star:       | HT, Set |         | >> | N  | T-I |
+
 
 ### LinkedList
 | # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0021 | Merge Two Sorted Lists                 | Easy   | :star:       | TP, REC | 88       | >> | I  | T-I |
-| 0083 | Remove Duplicates from Sorted List     | Easy   | :star::star: | REC     | 203, 26  | >> | I  |     |
 | 0141 | Linked List Cycle                      | Easy   | :star:       | TP, Set |          | >> | AI | T-I |
 | 0160 | Intersection of Two Linked Lists       | Easy   | :star:       | TP, Set |          | >> | A  | T-I |
-| 0203 | Remove Linked List Elements            | Easy   | :star:       | REC     |          | >> | AI |     |
 | 0206 | Reverse Linked List                    | Easy   | :star:       | REC     |          | >> | AI | T-I |
 | 0234*| Palindrome Linked List                 | Easy   | :star::star: | TP, REC | 206, 876 | >> | A  | T-I |
 | 0237 | Delete Node in a Linked List           | Easy   | :star:       |         |          | << | N  | T-I |
-| 0876 | Middle of the Linked List              | Easy   | :star:       | TP, LI  |          | >> | AI |     |
 
-### Math
+
+### Math & Stack
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0007 | Reverse Integer                        | Easy   | :star:       |           | 326      | <  | N  | T-I |
-| 0013 | Roman to Integer                       | Easy   |              |           |          | <  |    | T-I |
-| 0069 | Sqrt(x)                                | Easy   | :star:       | BS, BM    |          | <  | N  | T-I |
-| 0070 | Climbing Stairs                        | Easy   |              | DP        |          | >> |    | T-I |
+| 0013 | Roman to Integer                       | Easy   |              |           |          | <  | N  | T-I |
+| 0069 | Sqrt(x)                                | Easy   | :star:       | BS, BM    | 367      | <  | N  | T-I |
+| 0070 | Climbing Stairs                        | Easy   |              | DP, REC   | 509      | >> | AI | T-I |
 | 0171 | Excel Sheet Column Number              | Easy   | :star:       |           |          | >> | N  | T-I |
 | 0172 | Factorial Trailing Zeroes              | Easy   | :star:       |           |          | =  | N  | T-I |
 | 0202 | Happy Number                           | Easy   | :star:       | HT, Set   |          | >> | I  | T-I |
@@ -224,10 +222,186 @@ but please estimate if it satisfies the question restrictions.*
 | 0268 | Missing Number                         | Easy   | :star:       | BM, SO, HT|          | =  | N  | T-I |
 | 0326 | Power of Three                         | Easy   | :star:       |           |          | << | N  | T-I |
 
+
 ### Tree
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0101 | Symmetric Tree                             | Easy   | :star:       | BFS, DFS |          | >> |    | T-I |
-| 0104 | Maximum Depth of Binary Tree               | Easy   | :star:       | BFS, DFS |          | >> |    | T-I |
-| 0108 | Convert Sorted Array to Binary Search Tree | Easy   | :star:       | BFS, DFS |          | >> |    | T-I |
+| 0101 | Symmetric Tree                             | Easy   | :star:       | BFS, DFS      |        | >> |    | T-I |
+| 0104 | Maximum Depth of Binary Tree               | Easy   | :star:       | BFS, DFS, REC |        | >> |    | T-I |
+| 0108 | Convert Sorted Array to Binary Search Tree | Easy   | :star:       | BFS, DFS      |        | >> |    | T-I |
+
+
+
+### Non Top 100 Interview Questions
+
+### Array
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0027 | Remove Element                           | Easy   | :star:       | TP             |         | << | A  |     |
+| 0035 | Search Insert Position                   | Easy   | :star:       | BS, REC        | 704     | >> | N  |     |
+| 0066 | Plus One                                 | Easy   | :star:       |                |         | <  | N  |     |
+| 0080 | Remove Duplicates from Sorted Array II   | Medium |              | TP             | 26      | >> | AI |     |
+| 0167 | Two Sum II - Input array is sorted       | Easy   | :star::star: | TP, BS, HT     | 1       | >> | I  |     |
+| 0349 | Intersection of Two Arrays               | Easy   |              | TO, BS, SO, Set| 350     | << | N  |     |
+| 0448 | Find All Numbers Disappeared in an Array | Easy   |              |                |         | >> |    |     |
+| 0704 | Binary Search                            | Easy   | :star:       | BS, REC        | 35      | >> | N  |     |
+
+### String
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0058 | Length of Last Word                      | Easy   | :star:       |         |         | << | N  |     |
+| 0345 | Reverse Vowels of a String               | Easy   |              |         |         | << |    |     |
+| 0383 | Ransom Note                              | Easy   |              |         |         | >  |    |     |
+| 0434 | Number of Segments in a String           | Easy   |              |         |         | << |    |     |
+| 0520 | Detect Capital                           | Easy   |              |         |         | >  |    |     |
+| 0521 | Longest Uncommon Subsequence I           | Easy   |              |         |         | << |    |     |
+| 0541 | Reverse String II                        | Easy   |              |         |         | << |    |     |
+| 0551 | Student Attendance Record I              | Easy   |              |         |         | <  |    |     |
+| 0557 | Reverse Words in a String III            | Easy   | :star:       |         |         | >> | N  |     |
+| 0657 | Robot Return to Origin                   | Easy   |              |         |         | >  |    |     |
+| 0709 | To Lower Case                            | Easy   | :star:       |         |         | << | N  |     |
+| 0804 | Unique Morse Code Words                  | Easy   |              |         |         | =  |    |     |
+| 0819 | Most Common Word                         | Easy   |              |         |         | << |    |     |
+| 0824 | Goat Latin                               | Easy   |              |         |         | << |    |     |
+| 0844 | Backspace String Compare                 | Easy   | :star:       | STK     |         | >> |    |     |
+| 0859 | Buddy Strings                            | Easy   |              |         |         | >  |    |     |
+| 0893 | Groups of Special-Equivalent Strings     | Easy   |              |         |         | << |    |     |
+| 1047 | Remove All Adjacent Duplicates In String | Easy   | :star:       | STK     |         | >> |    |     |
+| 1189 | Maximum Number of Balloons               | Easy   |              |         |         | >  |    |     |
+
+### LinkedList
+| # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0083 | Remove Duplicates from Sorted List     | Easy   | :star::star: | REC     | 203, 26  | >> | I  |     |
+| 0203 | Remove Linked List Elements            | Easy   | :star:       | REC     |          | >> | AI |     |
+| 0876 | Middle of the Linked List              | Easy   | :star:       | TP, LI  |          | >> | AI |     |
+
+
+### Math & Stack
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0155 | Min Stack                              | Easy   | :star:       | STK      |          | >> |    |     |
+| 0190 | Reverse Bits                           | Easy   | :star:       | TP, BM   |          | >> | N  |     |
+| 0191 | Number of 1 Bits                       | Easy   |              | BM       |          | >  |    |     |
+| 0232 | Implement Queue using Stacks           | Easy   | :star:       | STK, QU  |          | >> |    |     |
+| 0367 | Valid Perfect Square                   | Easy   | :star:       | BS       | 69       | >> | N  |     |
+| 0374 | Guess Number Higher or Lower           | Easy   | :star:       | BS       | 704      | <  | N  |     |
+| 0389 | Find the Difference                    | Easy   | :star:       | BM, HT   |          | >> | N  |     |
+| 0509 | Fibonacci Number                       | Easy   | :star:       | REC, DP  | 70       | >  | N  |     |
+
+### Tree
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0100 | Same Tree                                  | Easy   |              |               |        | >> |    |     |
+| 0107 | Binary Tree Level Order Traversal II       | Easy   |              |               |        | >> |    |     |
+| 0112 | Path Sum                                   | Easy   |              |               |        | >> |    |     |
+| 0226 | Invert Binary Treee                        | Easy   |              |               |        | >> |    |     |
+| 0404 | Sum of Left Leaves                         | Easy   |              |               |        | >> |    |     |
+| 0559 | Maximum Depth of N-ary Tree                | Easy   |              |               |        | >> |    |     |
+| 0572 | Subtree of Another Tree                    | Easy   |              |               |        | >> |    |     |
+| 0589 | N-ary Tree Preorder Traversal              | Easy   |              |               |        | >  |    |     |
+| 0700 | Search in a Binary Search Tree             | Easy   |              |               |        | >> |    |     |
+| 0872 | Leaf-Similar Trees                         | Easy   |              |               |        | >> |    |     |
+| 0938 | Range Sum of BST                           | Easy   |              | REC           |        | >> |    |     |
+| 0965 | Univalued Binary Tree                      | Easy   |              |               |        | >  |    |     |
+| 0993 | Cousins in Binary Tree                     | Easy   |              |               |        | >> |    |     |
+
+
+### Others
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0118 | Pascal's Triangle                          | Easy   |              |          |          | >> |    |     |
+| 0119 | Pascal's Triangle II                       | Easy   |              |          |          | >> |    |     |
+| 0205 | Isomorphic Strings                         | Easy   |              |          |          | >> |    |     |
+| 0219 | Contains Duplicate II                      | Easy   |              |          |          | =  |    |     |
+| 0290 | Word Pattern                               | Easy   |              |          |          | >> |    |     |
+| 0412 | Fizz Buzz                                  | Easy   |              |          |          | <  |    |     |
+| 0414 | Third Maximum Number                       | Easy   |              |          |          | << |    |     |
+| 0485 | Max Consecutive Ones                       | Easy   |              |          |          | >  |    |     |
+| 0561 | Array Partition I                          | Easy   |              |          |          | =  |    |     |
+| 0566 | Reshape the Matrix                         | Easy   |              |          |          | >  |    |     |
+| 0605 | Can Place Flowers                          | Easy   |              |          |          | >  |    |     |
+| 0697 | Degree of an Array                         | Easy   |              |          |          | =  |    |     |
+| 0705 | Design HashSet                             | Easy   |              |          |          | >  |    |     |
+| 0706 | Design HashMap                             | Easy   |              |          |          | >> |    |     |
+| 0717 | 1-bit and 2-bit Characters                 | Easy   |              |          |          | << |    |     |
+| 0724 | Find Pivot Index                           | Easy   |              |          |          | >> |    |     |
+| 0766 | Toeplitz Matrix                            | Easy   |              |          |          | >> |    |     |
+| 0771 | Jewels and Stones                          | Easy   |              |          |          | >> |    |     |
+| 0830 | Positions of Large Groups                  | Easy   |              |          |          | >  |    |     |
+| 0832 | Flipping an Image                          | Easy   |              |          |          | >> |    |     |
+| 0867 | Transpose Matrix                           | Easy   |              |          |          | =  |    |     |
+| 0888 | Fair Candy Swap                            | Easy   |              |          |          | >  |    |     |
+| 0896 | Monotonic Array                            | Easy   |              |          |          | >  |    |     |
+| 0905 | Sort Array By Parity                       | Easy   |              |          |          | >> |    |     |
+| 1002 | Find Common Characters                     | Easy   |              |          |          | >> |    |     |
+| 1160 | Find Words That Can Be Formed by Characters| Easy   |              |          |          | >  |    |     |
+| 1207 | Unique Number of Occurrences               | Easy   |              |          |          | >  |    |     |
+
+
+### Todo (for up >> down and up > 1000) For practicing topics if needed
+| # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0009 | Palindrome Number                          | Easy   |              |               |        | >> |    |     |
+| 0067 | Add Binary                                 | Easy   |              |               |        | >> |    |     |
+| 0168 | Excel Sheet Column Title                   | Easy   |              |               |        | >> |    |     |
+| 0175 | Combine Two Tables                         | Easy   |              |               |        | >> |    |     |
+| 0231 | Power of Two                               | Easy   |              |               |        | >> |    |     |
+| 0235 | Lowest Common Ancestor of a BST            | Easy   |              |               |        | >> |    |     |
+| 0278 | First Bad Version                          | Easy   |              |               |        | >> |    |     |
+| 0392 | Is Subsequence                             | Easy   |              |               |        | >> |    |     |
+| 0409 | Longest Palindrome                         | Easy   |              |               |        | >> |    |     |
+| 0415 | Add Strings                                | Easy   |              |               |        | >> |    |     |
+| 0459 | Repeated Substring Pattern                 | Easy   |              |               |        | >> |    |     |
+| 0461 | Hamming Distance                           | Easy   |              |               |        | >> |    |     |
+| 0463 | Island Perimeter                           | Easy   |              |               |        | >> |    |     |
+| 0476 | Number Complement                          | Easy   |              |               |        | >> |    |     |
+| 0501 | Find Mode in Binary Search Tree            | Easy   |              |               |        | >> |    |     |
+| 0530 | Minimum Absolute Difference in BST         | Easy   |              |               |        | >> |    |     |
+| 0543 | Diameter of Binary Tree                    | Easy   |              |               |        | >> |    |     |
+| 0617 | Merge Two Binary Trees                     | Easy   |              |               |        | >> |    |     |
+| 0628 | Maximum Product of Three Numbers           | Easy   |              |               |        | >> |    |     |
+| 0637 | Average of Levels in Binary Tree           | Easy   |              |               |        | >> |    |     |
+| 0665 | Non-decreasing Array                       | Easy   |              |               |        | >> |    |     |
+| 0653 | Two Sum IV - Input is a BST                | Easy   |              |               |        | >> |    |     |
+| 0669 | Trim a Binary Search Tree                  | Easy   |              |               |        | >> |    |     |
+| 0674 | Longest Continuous Increasing Subsequence  | Easy   |              |               |        | >> |    |     |
+| 0680 | Valid Palindrome II                        | Easy   |              |               |        | >> |    |     |
+| 0696 | Count Binary Substrings                    | Easy   |              |               |        | >> |    |     |
+| 0703 | Kth Largest Element in a Stream            | Easy   |              |               |        | >> |    |     |
+| 0733 | Flood Fill                                 | Easy   |              |               |        | >> |    |     |
+| 0746 | Min Cost Climbing Stairs                   | Easy   |              |               |        | >> |    |     |
+| 0796 | Rotate String                              | Easy   |              |               |        | >> |    |     |
+| 0821 | Shortest Distance to a Character           | Easy   |              |               |        | >> |    |     |
+| 0929 | Unique Email Addresses                     | Easy   |              |               |        | >> |    |     |
+| 0942 | DI String Match                            | Easy   |              |               |        | >> |    |     |
+| 0953 | Verifying an Alien Dictionary              | Easy   |              |               |        | >> |    |     |
+| 0977 | Squares of a Sorted Array                  | Easy   |              |               |        | >> |    |     |
+| 0997 | Find the Town Judge                        | Easy   |              |               |        | >> |    |     |
+| 1046 | Last Stone Weight                          | Easy   |              |               |        | >> |    |     |
+| 1154 | Day of the Year                            | Easy   |              |               |        | >> |    |     |
+| 1365 | How Many Numbers Are Smaller Than the Current Number | Easy   |              |               |        | >> |    |     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
