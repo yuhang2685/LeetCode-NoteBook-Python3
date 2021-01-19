@@ -2,8 +2,8 @@
 
 
 ## Goal
-Although the book will contain a bunch of problem solutions, we demand more. 
-The notebook aims at helping us become skilled at solving problems using *Data structures*, *Algorithms* and tricks.
+Although the Notebook contains a bunch of problem solutions, we demand more. 
+The notebook aims at helping us become skilled at solving problems using *Data structures*, *Algorithms* and tricks properly.
 Instead of through hard working on problems again and again,
 our motivation is to develop problem-solving skills wisely 
 by applying and deveoping meta-skills such as abstracting, grouping, finding properties, connecting, comparing, evaluating, etc..
@@ -25,7 +25,7 @@ Therefore,
 *LeetCode* problems are no more isolated individual problems,
 but a repository of problems with hidden connections of similarity and variance.
 We need to manage time wisely instead of hacking on everyone starting from problem #1 which is frustrating.
-Note *LeetCode* is not the place for learning fundamental concepts, we should do that before starting *LeetCode*.
+Note *LeetCode* is NOT the place for learning fundamental concepts, we should do that before starting *LeetCode*.
 The repository are trainings for developing individual skills
 and also for applying them flexibly and logically.
 Moreover, the problems are putting together for abstracting the common procedures and steps for solving problems.
@@ -43,22 +43,22 @@ but a graph of nodes and connections.
 
 
 ## Schedule 
-One month on "Easy" questions:
+- One month on "Easy" questions:
 They provide us the chance for understanding and getting familiar with concepts and properties.
 They are for developing individual basic skills and tricks for the future.
-They are the start point of the journey for expanding our power. 
+They are the starting point of the journey for expanding our power. 
 But we do not have to go through all of them, 
 since many of them are not worth spending much efforts (See [Tips](#tips)).
 Therefore we start with questions for fundamental concepts and skills.
 And then make sure to cover all "Top 100 Liked Questions" and "Top 100 Interview Questions".
-We focus on coding skills.
+At this time, we focus on implementation skills.
 
-Then one "Medium-Hard" problem per day:
+- Then one "Medium-Hard" problem per day:
 They are essential problems closer to real daily problems.
 They are more complexed problems composed of lower level problems with new restrictions,
 which require us to play with a bunch of basic building blocks flexibly and logically.
 Make sure to cover all "Top 100 Liked Questions" and "Top 100 Interview Questions".
-We focus on solutions.
+At this time, we focus on solutions skills.
 
 
 ## Time Management
@@ -119,20 +119,20 @@ See "How to check with other solutions".
 ## How to check with other solutions
 - #### Benefit to check with standard solutions and also those in "Discuss" (click "Most Votes" and only for <=2 pages).
 - #### Use "Debugger" to understand the solution step by step if necessary.
-- #### Abstract their tricks and find out how to come up with the tricks from the questions, then also extend our tricks set for this topic.
+- #### Abstract their tricks and find out how to come up with the tricks from the questions, then extend our tricks set for this topic.
 - #### Evaluate and compare *time / space complexity* of all solutions.
 - #### Mark the problem number down and review it in the near future.
 
 
 ## Tips
 * Use filters. E.g., pick "Top 100 Liked Questions".
-* Do not work on the problems with :-1: >> :+1:. It doesn't mean the problem is "bad", but it is too easy for doing, if you have worked out "T-I".
+* Do not work on the problems with :-1: >> :+1:. It doesn't mean the problem is "bad", but it is too easy if you have worked out "T-I".
 * Only view discussion with :+1: >> :-1:.
 * Do not connect the problem to a particular problem, but to a general category, because we have limited memory.
 * Optimization and conciseness are different.
 * Understand the relationship of *Data Structures*, i.e., *Hash Table* with don't care values, then use *Set*.
 * Keep in mind the operations can be arranged in different structures, by trade off between readibility and conciseness.
-* Conciseness might not always help optimization (which is by estimating complexity and mind-compiling), but sacrifice the readability.
+* Conciseness might not always help optimization (which is by estimating complexity and mind-compiling), but reduce readability.
 * We will be skilled at conciseness automatically with the time going, but focus on correctness and *time / space complexity*.
 * Do not RUSH! The faster is the slower; The slower is the faster.
 * Instead of hacking on solving problems, it benefits from reviewing sloved problems as well as otherones solutions and evaluating them. 
@@ -146,7 +146,7 @@ but please estimate if it satisfies the question restrictions.*
 ### Abbreviations:
 - "I" stands for Implementations are supplied, which take the training for coding skills
 - "A" stands for Analysis are supplied, which take the training for coming up solutions, and also the overview of all solutions
-- "N" stands no work, either because the analysis is straight forward, or the problem is a slightly alternate to a problem already seen. Also skip coding training
+- "N" stands no work, either because the analysis and implementation are straight forward, or the problem is a slightly alternate to a problem already seen
 - "T-I" stands "Top 100 Interview Questions"
 - "T-100" stands "Top 100 Liked Questions"
 - "E" stands for "Building blocks", because they are from LeetCode category "Easy"
@@ -175,8 +175,8 @@ but please estimate if it satisfies the question restrictions.*
 | 0026 | Remove Duplicates from Sorted Array    | Easy   | :star::star: | TP             | 27      | << | AI | T-I |
 | 0053 | Maximum Subarray                       | Easy   | :star:       | DC, DP, GR     | 121     | >> | N  | T-I |
 | 0088 | Merge Sorted Array                     | Easy   | :star:       | TP             | 21      | <  | A  | T-I |
-| 0121 | Best Time to Buy and Sell Stock        | Easy   | :star::star: | DC, DP, GR     | 53      | >> | N  | T-I |
-| 0122 | Best Time to Buy and Sell Stock II     | Easy   | :star:       | GR             |         | >> | N  | T-I |
+| 0121 | Best Time to Buy and Sell Stock        | Easy   | :star::star: | DC, DP, GR     | 53      | >> | A  | T-I |
+| 0122 | Best Time to Buy and Sell Stock II     | Easy   | :star:       | GR             |         | >> | I  | T-I |
 | 0136 | Single Number                          | Easy   | :star:       | HT, SO, BM, MA | 242     | >> | A  | T-I |
 | 0169 | Majority Element                       | Easy   | :star:       | HT, SO, DC, REC|         | >> | N  | T-I |
 | 0217 | Contains Duplicate                     | Easy   | :star:       | SO, Set, HT    |         | >> | AI | T-I |
@@ -239,7 +239,7 @@ but please estimate if it satisfies the question restrictions.*
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0027 | Remove Element                           | Easy   | :star:       | TP             |         | << | A  |     |
 | 0035 | Search Insert Position                   | Easy   | :star:       | BS, REC        | 704     | >> | N  |     |
-| 0080 | Remove Duplicates from Sorted Array II   | Medium | :star::star: | TP             | 26      | >> | AI |     |
+| 0080 | Remove Duplicates from Sorted Array II   | Medium | :star2:      | TP             | 26      | >> | AI |     |
 | 0167 | Two Sum II - Input array is sorted       | Easy   | :star::star: | TP, BS, HT     | 1       | >> | I  |     |
 | 0349 | Intersection of Two Arrays               | Easy   |              | TO, BS, SO, Set| 350     | << | N  |     |
 | 0448 | Find All Numbers Disappeared in an Array | Easy   |              |                |         | >> |    |     |
@@ -257,6 +257,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0844 | Backspace String Compare                 | Easy   | :star:       | TP, STK |         | >> | N  |     |
 | 1002 | Find Common Characters                   | Easy   |              | HT      |         | >> | N  |     |
 | 1047 | Remove All Adjacent Duplicates In String | Easy   | :star:       | STK     |         | >> |    |     |
+
 
 ### LinkedList
 | # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
@@ -281,7 +282,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0509 | Fibonacci Number                       | Easy   | :star:       | REC, DP  | 70       | >  | N  |     |
 | 0566 | Reshape the Matrix                     | Easy   |              |          |          | >  |    |     |
 | 0674 | Longest Continuous Increasing Subsequence| Easy | :star:       | TP, DP   |          | >> | N  |     |
-| 0746 | Min Cost Climbing Stairs               | Easy   | :star:       | DP       |          | >> | N  |     |
+| 0746 | Min Cost Climbing Stairs               | Easy   | :star::star: | DP       | 70       | >> | I  |     |
 | 0766 | Toeplitz Matrix                        | Easy   |              |          |          | >> |    |     |
 | 0832 | Flipping an Image                      | Easy   |              |          |          | >> |    |     |
 | 0867 | Transpose Matrix                       | Easy   |              |          |          | =  |    |     |
