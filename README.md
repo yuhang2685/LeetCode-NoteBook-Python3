@@ -4,6 +4,9 @@
 ## Goal
 Although the Notebook contains a bunch of problem solutions, we demand more. 
 The notebook aims at helping us become skilled at solving problems using *Data structures*, *Algorithms* and tricks properly.
+Most problems will be hard with hands dirty if one uses "Brute Force", 
+but if we work on them with proper *Data structures*, *Algorithms* and tricks,
+the life will become quite easy as well as with a high quality yield.
 Instead of through hard working on problems again and again,
 our motivation is to develop problem-solving skills wisely 
 by applying and deveoping meta-skills such as abstracting, grouping, finding properties, connecting, comparing, evaluating, etc..
@@ -135,7 +138,7 @@ See "How to check with other solutions".
 * Conciseness might not always help optimization (which is by estimating complexity and mind-compiling), but reduce readability.
 * We will be skilled at conciseness automatically with the time going, but focus on correctness and *time / space complexity*.
 * Do not RUSH! The faster is the slower; The slower is the faster.
-* Instead of hacking on solving problems, it benefits from reviewing sloved problems as well as otherones solutions and evaluating them. 
+* Instead of hacking on solving problems, it benefits from reviewing sloved problems as well as other people's solutions. 
 
 
 ## Content Table
@@ -146,7 +149,7 @@ but please estimate if it satisfies the question restrictions.*
 ### Abbreviations:
 - "I" stands for Implementations are supplied, which take the training for coding skills
 - "A" stands for Analysis are supplied, which take the training for coming up solutions, and also the overview of all solutions
-- "N" stands no work, either because the analysis and implementation are straight forward, or the problem is a slightly alternate to a problem already seen
+- "N" stands for no work, either because the analysis and implementation are straight forward, or a slightly alternate to one already seen
 - "T-I" stands "Top 100 Interview Questions"
 - "T-100" stands "Top 100 Liked Questions"
 - "E" stands for "Building blocks", because they are from LeetCode category "Easy"
@@ -166,22 +169,24 @@ but please estimate if it satisfies the question restrictions.*
 - "* " stands for "Incomplete"
 - ":star:" stands for fundamental tasks from LeetCode category "Easy"
 - ":star::star:" stands for fundamental tasks from LeetCode category "Easy", but with a little bit change on ":star:"
+- ":star2:" stands for fundamental tasks from LeetCode category "Medium"
 
 
 ### Array
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0001 | Two Sum                                | Easy   | :star:       | HT             |         | >> | N  | T-I |
-| 0026 | Remove Duplicates from Sorted Array    | Easy   | :star::star: | TP             | 27      | << | AI | T-I |
-| 0053 | Maximum Subarray                       | Easy   | :star:       | DC, DP, GR     | 121     | >> | N  | T-I |
-| 0088 | Merge Sorted Array                     | Easy   | :star:       | TP             | 21      | <  | A  | T-I |
-| 0121 | Best Time to Buy and Sell Stock        | Easy   | :star::star: | DC, DP, GR     | 53      | >> | A  | T-I |
-| 0122 | Best Time to Buy and Sell Stock II     | Easy   | :star:       | GR             |         | >> | I  | T-I |
-| 0136 | Single Number                          | Easy   | :star:       | HT, SO, BM, MA | 242     | >> | A  | T-I |
-| 0169 | Majority Element                       | Easy   | :star:       | HT, SO, DC, REC|         | >> | N  | T-I |
-| 0217 | Contains Duplicate                     | Easy   | :star:       | SO, Set, HT    |         | >> | AI | T-I |
-| 0283 | Move Zeroes                            | Easy   | :star::star: | TP             | 27      | >> | A  | T-I |
-| 0350 | Intersection of Two Arrays II          | Easy   | :star:       | TP, BS, HT, SO |         | >> | N  | T-I |
+| 0001 | Two Sum                                | Easy   | :star:       | HT              |         | >> | N  | T-I |
+| 0026 | Remove Duplicates from Sorted Array    | Easy   | :star::star: | TP              | 27      | << | AI | T-I |
+| 0053 | Maximum Subarray                       | Easy   | :star:       | DC, DP, GR      | 121     | >> | N  | T-I |
+| 0088 | Merge Sorted Array                     | Easy   | :star:       | TP              | 21      | <  | A  | T-I |
+| 0121 | Best Time to Buy and Sell Stock        | Easy   | :star::star: | DC, DP, GR      | 53      | >> | A  | T-I |
+| 0122 | Best Time to Buy and Sell Stock II     | Easy   | :star:       | GR              |         | >> | I  | T-I |
+| 0136 | Single Number                          | Easy   | :star:       | HT, SO, BM, MA  | 242     | >> | A  | T-I |
+| 0169 | Majority Element                       | Easy   | :star:       | HT, SO, DC, REC |         | >> | N  | T-I |
+| 0198 | House Robber                           | Medium | :star2:      | DP              | 746     | >> | I  | T-I |
+| 0217 | Contains Duplicate                     | Easy   | :star:       | SO, Set, HT     |         | >> | AI | T-I |
+| 0283 | Move Zeroes                            | Easy   | :star::star: | TP              | 27      | >> | A  | T-I |
+| 0350 | Intersection of Two Arrays II          | Easy   | :star:       | TP, BS, HT, SO  |         | >> | N  | T-I |
 
 
 ### String
@@ -200,12 +205,15 @@ but please estimate if it satisfies the question restrictions.*
 ### LinkedList
 | # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0002 | Add Two Numbers                        | Medium | :star2       |         |          | >> | I  | T-I |
+| 0019 | Odd Even Linked List                   | Medium | :star2:      | TP      |          | >> | N  | T-I |
 | 0021 | Merge Two Sorted Lists                 | Easy   | :star:       | TP, REC | 88       | >> | I  | T-I |
 | 0141 | Linked List Cycle                      | Easy   | :star:       | TP, Set |          | >> | AI | T-I |
 | 0160 | Intersection of Two Linked Lists       | Easy   | :star:       | TP, Set |          | >> | A  | T-I |
 | 0206 | Reverse Linked List                    | Easy   | :star:       | REC     |          | >> | AI | T-I |
 | 0234*| Palindrome Linked List                 | Easy   | :star::star: | TP, REC | 206, 876 | >> | A  | T-I |
 | 0237 | Delete Node in a Linked List           | Easy   | :star:       |         |          | << | N  | T-I |
+| 0328 | Odd Even Linked List                   | Medium | :star2:      | TP      |          | >> | A  | T-I |
 
 
 ### Math & Stack
@@ -247,6 +255,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0724 | Find Pivot Index                         | Easy   |              |                |         | >> |    |     |
 | 0905 | Sort Array By Parity                     | Easy   |              |                |         | >> |    |     |
 
+
 ### String
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -286,6 +295,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0766 | Toeplitz Matrix                        | Easy   |              |          |          | >> |    |     |
 | 0832 | Flipping an Image                      | Easy   |              |          |          | >> |    |     |
 | 0867 | Transpose Matrix                       | Easy   |              |          |          | =  |    |     |
+
 
 ### Tree
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
