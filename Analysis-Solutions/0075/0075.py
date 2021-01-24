@@ -2,7 +2,7 @@
  #
  # Solution#1 has two pass, O(n) time and O(1) space.
  # Solution#2 has two pass, O(n) time and O(1) space. It is interesting and done by me. The code is concise with a same efficiency as #1.
- # Solution#3 has one pass, O(n) time and O(1) space. It is from other people solution.
+ # Solution#3 has one pass, O(n) time and O(1) space. It is from other people solution, called "dutch partitioning problem".
  # The main idea Solution#3 is: 
  # p_2 travels through the array one by one, while p_1 and p_3 stay for filling whatever p_2 found.
  # We don't need to worry about whites, whenever read and blue are correctly placed, the rest are all whites.
