@@ -178,6 +178,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0001 | Two Sum                                | Easy   | :star:       | HT              |         | >> | N  | T-I |
 | 0026 | Remove Duplicates from Sorted Array    | Easy   | :star::star: | TP              | 27      | << | AI | T-I |
 | 0053 | Maximum Subarray                       | Easy   | :star:       | DC, DP, GR      | 121     | >> | N  | T-I |
+| 0075 | Sort Colors                            | Medium | :star2:      | TP              |         | >> | I  | T-I |
 | 0088 | Merge Sorted Array                     | Easy   | :star:       | TP              | 21      | <  | A  | T-I |
 | 0121 | Best Time to Buy and Sell Stock        | Easy   | :star::star: | DC, DP, GR      | 53      | >> | A  | T-I |
 | 0122 | Best Time to Buy and Sell Stock II     | Easy   | :star:       | GR              |         | >> | I  | T-I |
@@ -186,6 +187,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0198 | House Robber                           | Medium | :star2:      | DP              | 746     | >> | I  | T-I |
 | 0217 | Contains Duplicate                     | Easy   | :star:       | SO, Set, HT     |         | >> | AI | T-I |
 | 0283 | Move Zeroes                            | Easy   | :star::star: | TP              | 27      | >> | A  | T-I |
+| 0322 | Coin Change                            | Medium | :star2:      | DP              |         | >> | I  | T-I |
 | 0350 | Intersection of Two Arrays II          | Easy   | :star:       | TP, BS, HT, SO  |         | >> | N  | T-I |
 
 
@@ -205,7 +207,7 @@ but please estimate if it satisfies the question restrictions.*
 ### LinkedList
 | # | Title | Difficulty |  Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0002 | Add Two Numbers                        | Medium | :star2       |         |          | >> | I  | T-I |
+| 0002 | Add Two Numbers                        | Medium | :star2:      |         |          | >> | I  | T-I |
 | 0019 | Odd Even Linked List                   | Medium | :star2:      | TP      |          | >> | N  | T-I |
 | 0021 | Merge Two Sorted Lists                 | Easy   | :star:       | TP, REC | 88       | >> | I  | T-I |
 | 0141 | Linked List Cycle                      | Easy   | :star:       | TP, Set |          | >> | AI | T-I |
@@ -313,7 +315,7 @@ but please estimate if it satisfies the question restrictions.*
 | 0993 | Cousins in Binary Tree                     | Easy   |              |               |        | >> |    |     |
 
 
-### Done before (NOT :+1: >> :-1:. Easy for doing, if you have worked out "T-I".)
+### Done before (NOT :+1: >> :-1:. Easy if you have worked out "T-I".)
 | # | Title | Difficulty | Level | Algorithms | Related | :+1: :-1: | Solutions | Lists |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0058 | Length of Last Word                        | Easy   | :star:       |          |          | << | N  |     |
