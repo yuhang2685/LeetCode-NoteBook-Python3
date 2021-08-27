@@ -85,7 +85,7 @@ See "How to check with other solutions".
 * Grab a piece of white paper.
 * 90-10 stratege: 90% time for thinking, 10% time for coding.
 * Read the description carefully.
-* Find and write down *input-output-functionality*.
+* Find and write down *input-output-functionality*, know what is the data structure for input.
 * Find and write down restrictions.
 * Abstract tasks and information to higher level as a conceptuality.
 * Determine which group it belongs to.
